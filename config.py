@@ -81,22 +81,22 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/c/2396123709/2465")
 #put TRUE if you want this feature
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
 #UPI ID
-UPI_ID = os.environ.get("UPI_ID", " ")
+UPI_ID = os.environ.get("UPI_ID", "ronaksaini922@ybl")
 #UPI QR CODE IMAGE
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://justpaste.it/d4lrf")
 #SCREENSHOT URL of ADMIN for verification of payments
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/{OWNER_TAG}")
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "30 rs")
+PRICE1 = os.environ.get("PRICE1", "10 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "110 rs")
+PRICE2 = os.environ.get("PRICE2", "50 rs")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "299 rs")
+PRICE3 = os.environ.get("PRICE3", "150 rs")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "550 rs")
+PRICE4 = os.environ.get("PRICE4", "300 rs")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "999 rs")
+PRICE5 = os.environ.get("PRICE5", "500 rs")
 
 
 

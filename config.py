@@ -24,13 +24,13 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Don't send me messages directly Contact @ronaaks007 📌")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7736437910:AAEPlzkVC3ALiqzInhBe3fF6oWTgu0hOvfY") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8119510570:AAF-JMuzhPnvYfnygwRO7hhu_R3XdW7gKs4") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "27311593"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "f6a7c2f795c4e168eeb2778f8c32b133")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002326738922"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002487939009"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "7663297585"))
 #port set to default 8080
@@ -47,7 +47,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "ronaaks007")
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "9000"))
+TIME = int(os.environ.get("TIME", "600"))
 
 3
 #Shortner (token system) 
@@ -58,7 +58,7 @@ https://dashboard.shareus.io/
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "offerlinks.in")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")

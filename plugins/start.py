@@ -190,7 +190,7 @@ async def start_command(client: Client, message: Message):
                         except:
                             pass
                     clicks = await get_clicks(newbase64_string)
-                    newLink = f"https://t.me/{client.username}?start=verify_{token}"
+                    newLink = f"https://t.me/{client.username}?start={newbase64_string}"
                     link = await get_shortlink(SHORTLINK_API_URL, SHORTLINK_API_KEY,f'{newLink}')
                     if USE_PAYMENT:
                         btn = [
